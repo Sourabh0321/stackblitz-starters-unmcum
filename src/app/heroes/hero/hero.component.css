@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding: 0.5rem;  */
+  border: 1px solid #ccc;
+  height: 38vh;
+  width: 15rem;
+  /* background-color: cyan; */
+}
+.avatar
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  background-color: aquamarine;
+}
+.avatar > img{
+  height: 9rem;
+}
