@@ -5,15 +5,18 @@
   align-items: center;
   height: 90vh;
   width: 95vw;
-  background-color: cyan;
+  border: 1px solid grey;
+  /* background-color: aqua; */
+  padding: 2rem;
 }
 .heroes {
-  height: 30vh;
-  width: 100%;
-  background-color: gold;
+  height: 40vh;
+  width: 90vw;
+  box-shadow: 2px 2px 3px rgba(7, 7, 7, 0.3);
 }
 .details {
-  width: 50vh;
-  height: 60%;
-  background-color: darkviolet;
+  width: 60vw;
+  height: 100vh;
+
+  box-shadow: 2px 2px 3px rgba(7, 7, 7, 0.3);
 }
