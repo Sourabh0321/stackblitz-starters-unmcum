@@ -1,20 +1,21 @@
 import { Component, OnInit } from '@angular/core';
+import { Hero } from './hero';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
 
 @Component({
-  standalone:true,
+  standalone: true,
   selector: 'app-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports:[HeroesComponent,HeroDetailComponent]
+  imports: [HeroesComponent, HeroDetailComponent],
 })
 export class AppComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit() {}
 
-  ngOnInit() {
-    
+  onHeroSelected(hero: Hero) {
+    console.log(hero);
   }
-
 }
